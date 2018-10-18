@@ -19,3 +19,5 @@ var channel = "493310015785140227";//ايدي الروم
 })
 
 hero.login(process.env.token);
+
+// Creditor , iAmYouseFx ~
