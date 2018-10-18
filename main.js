@@ -11,13 +11,11 @@ var channel = "502593328219684917";//ايدي الروم
 })
 
 hero.on('ready', async() => {
-var server = "493310015785140225"; // ايدي السررفر
-var channel = "493310015785140227";//ايدي الروم
+var server = "497083850959224834"; // ايدي السررفر
+var channel = "502593328219684917";//ايدي الروم
     setInterval(()=>{
     hero.guilds.get(server).channels.get(channel).send('#daily <@475396751549792277>');
     },86400);
 })
 
 hero.login(process.env.token);
-
-// Creditor , iAmYouseFx ~
