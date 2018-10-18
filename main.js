@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const hero = new Discord.hero();
+const hero = new Discord.Client();
 hero.on('ready', () => console.log('..'));
 
 hero.on('ready', async() => {
