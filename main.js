@@ -17,3 +17,5 @@ hero.on('ready',async () => {
     spamLoop(9, `**، Fun ~ \`${spamCounter}\`**`);
   }
 });
+
+// iAmYouseFx
