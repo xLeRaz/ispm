@@ -1,7 +1,5 @@
 const Discord = require('discord.js');
 const hero = new Discord.Client();
-const config = {clientID: hero.user.id, creatorID: "475396751549792277"};
-hero.config = config;
 hero.login(process.env.token);
 hero.on('ready',async () => {
   console.log(`Copyright (c) 2018 Copyright iAmYouseFx All Rights Reserved.`);
