@@ -40,3 +40,5 @@ var channel = "502593328219684917";//ايدي الروم
 })
 
 o1hero.login(process.env.yotoken)
+
+// يا خرا اشتغلللللللللل
